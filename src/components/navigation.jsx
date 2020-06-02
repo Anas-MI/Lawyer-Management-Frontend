@@ -25,8 +25,8 @@ export class Navigation extends Component {
 
             <div className="navbar-login ml-auto"> 
             <ul className="navbar-nav py-4 py-md-0">      
-              <li className="nav-item"><a href="#login" className="nav-link page-scroll">Login</a></li>
-              <li className="nav-item"><a href="#register" className="text-white page-scroll btn cust-btn-primary">Register</a></li>
+              <li className="nav-item"><a href="/login" className="nav-link page-scroll">Login</a></li>
+              <li className="nav-item"><a href="/registration" className="text-white page-scroll btn cust-btn-primary">Register</a></li>
             </ul>
           </div>
           </div>

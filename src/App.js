@@ -1,27 +1,42 @@
 import React from 'react';
-import Header from './components/header';
 import Navigation from './components/navigation';
-import Features from './components/features';
-import Pricing from './components/pricing';
-import About from './components/about';
-import Services from './components/services';
-import Gallery from './components/gallery';
-import Testimonials from './components/testimonials';
-import Blog from './components/Blog';
-import Contact from './components/contact';
-import $ from 'jquery';
+import Home from "./pages/home";
+import Login from "./pages/login";
+import Registration from "./pages/registration";
+import Forgot from "./pages/forgotpass";
+import Reset from "./pages/resetpass";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './App.scss';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
       <Navigation />
-      <Header />
-        <About />
-        <Pricing />
-        <Blog />
-     <Contact />
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>         
+        <Route path="/login">
+          <Login />
+        </Route>         
+        <Route path="/registration">
+          <Registration />
+        </Route>
+        <Route path="/forgotpass">
+          <Forgot />
+        </Route>
+        <Route path="/resetpass">
+          <Reset />
+        </Route>         
+      </Switch>
     </div>
+
+    </Router>    
   );
 }
 
