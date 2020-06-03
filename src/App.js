@@ -22,19 +22,19 @@ function App() {
         <Route path="/" exact>
           <Home />
         </Route>         
-        <Route path="/login">
+        <Route path="/login" exact>
           <Login />
         </Route>         
-        <Route path="/registration">
+        <Route path="/registration" exact>
           <Registration />
         </Route>
-        <Route path="/forgotpass">
+        <Route path="/forgotpass" exact>
           <Forgot />
         </Route>
-        <Route path="/resetpass">
+        <Route path="/resetpass" exact>
           <Reset />
         </Route>
-        <Route path="/subscription">
+        <Route path="/subscription" exact>
           <Subscription />
         </Route>            
       </Switch>
