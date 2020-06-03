@@ -10,17 +10,17 @@ export class Navigation extends Component {
         <div className="row">
           <div className="col-12">
             <nav className="navbar navbar-expand-md navbar-light">
-            <a className="navbar-brand page-scroll" href="#page-top">Logo</a>
+            <a className="navbar-brand page-scroll" href="/">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="navbar-nav py-4 py-md-0">
-              <li className="nav-item"><a href="#home" className="nav-link page-scroll">Home</a></li>
-              <li className="nav-item"><a href="#feature" className="nav-link page-scroll">Feature</a></li>
-              <li className="nav-item"><a href="#pricing" className="nav-link page-scroll">Pricing</a></li>
-              <li className="nav-item"><a href="#blog" className="nav-link page-scroll">Blog</a></li>
-              <li className="nav-item"><a href="#contact" className="nav-link page-scroll">Contact us</a></li>
+              <li className="nav-item"><a href="/" className="nav-link page-scroll">Home</a></li>
+              <li className="nav-item"><a href="/" className="nav-link page-scroll">Feature</a></li>
+              <li className="nav-item"><a href="/subscription" className="nav-link page-scroll">Pricing</a></li>
+              <li className="nav-item"><a href="/" className="nav-link page-scroll">Blog</a></li>
+              <li className="nav-item"><a href="/" className="nav-link page-scroll">Contact us</a></li>
             </ul>
 
             <div className="navbar-login ml-auto"> 
