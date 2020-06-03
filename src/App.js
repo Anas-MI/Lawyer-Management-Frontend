@@ -5,6 +5,7 @@ import Login from "./pages/login";
 import Registration from "./pages/registration";
 import Forgot from "./pages/forgotpass";
 import Reset from "./pages/resetpass";
+import Subscription from "./pages/subscription"
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,7 +33,10 @@ function App() {
         </Route>
         <Route path="/resetpass">
           <Reset />
-        </Route>         
+        </Route>
+        <Route path="/subscription">
+          <Subscription />
+        </Route>            
       </Switch>
     </div>
 
