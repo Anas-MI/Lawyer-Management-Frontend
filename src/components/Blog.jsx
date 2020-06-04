@@ -58,6 +58,9 @@ export class Team extends Component {
               </div>
             </div>
           </div>
+          <div className="col-md-12 col-md-offset-1 text-center">
+              <a href="/blog" class="mt-5 text-custom-primary cta-btn-blank"><span>View More</span></a>
+          </div>
 
           {/* <div id="row">
           {this.props.data ? this.props.data.map(d => 

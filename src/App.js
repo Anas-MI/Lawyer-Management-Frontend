@@ -6,6 +6,9 @@ import Registration from "./pages/registration";
 import Forgot from "./pages/forgotpass";
 import Reset from "./pages/resetpass";
 import Subscription from "./pages/subscription"
+import Blogcard from "./pages/blogcard"
+import Blogpage from './pages/blogpage';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -36,7 +39,13 @@ function App() {
         </Route>
         <Route path="/subscription">
           <Subscription />
-        </Route>            
+        </Route>
+        <Route path="/blog">
+          <Blogcard />
+        </Route>
+        <Route path="/blogpage">
+          <Blogpage />
+        </Route>                 
       </Switch>
     </div>
 

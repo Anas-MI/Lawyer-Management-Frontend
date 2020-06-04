@@ -2,8 +2,6 @@
 .cust-btn-primary{
     @include cust-btn;
   }
-
-
   .cta-btn-blank{
     display: inline-block;
     &:after {
