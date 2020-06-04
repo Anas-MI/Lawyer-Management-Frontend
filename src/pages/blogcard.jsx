@@ -1,7 +1,9 @@
 import React from 'react';
+import Footer from '../components/footer'
 
 const blogcard =() =>{
     return(
+        <>
         <div className="text-center my-5">
             <div className="container">
                 <div className="col-12"><h2 className="title-bdr">Blog</h2></div>
@@ -42,6 +44,8 @@ const blogcard =() =>{
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
     )
 }
 export default blogcard

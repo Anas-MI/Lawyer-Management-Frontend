@@ -1,7 +1,9 @@
 import React from 'react';
+import Footer from '../components/footer'
 
 const blogpage = () =>{
     return(
+        <>
         <div className="blogpage my-5">
             <div className="container">
                 <div className="row justify-content-md-center">
@@ -28,6 +30,8 @@ const blogpage = () =>{
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
     )
 }
 export default blogpage

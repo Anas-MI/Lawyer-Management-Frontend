@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <li className="nav-item"><a href="/" className="nav-link page-scroll">Home</a></li>
               <li className="nav-item"><a href="/" className="nav-link page-scroll">Feature</a></li>
               <li className="nav-item"><a href="/subscription" className="nav-link page-scroll">Pricing</a></li>
-              <li className="nav-item"><a href="/" className="nav-link page-scroll">Blog</a></li>
+              <li className="nav-item"><a href="/blog" className="nav-link page-scroll">Blog</a></li>
               <li className="nav-item"><a href="/" className="nav-link page-scroll">Contact us</a></li>
             </ul>
 
