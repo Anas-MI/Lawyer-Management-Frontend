@@ -17,10 +17,10 @@ export class Navigation extends Component {
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="navbar-nav py-4 py-md-0">
               <li className="nav-item"><a href="/" className="nav-link page-scroll">Home</a></li>
-              <li className="nav-item"><a href="/" className="nav-link page-scroll">Feature</a></li>
+              <li className="nav-item"><a href="/feature" className="nav-link page-scroll">Feature</a></li>
               <li className="nav-item"><a href="/subscription" className="nav-link page-scroll">Pricing</a></li>
               <li className="nav-item"><a href="/blog" className="nav-link page-scroll">Blog</a></li>
-              <li className="nav-item"><a href="/" className="nav-link page-scroll">Contact us</a></li>
+              <li className="nav-item"><a href="/contact" className="nav-link page-scroll">Contact us</a></li>
             </ul>
 
             <div className="navbar-login ml-auto"> 

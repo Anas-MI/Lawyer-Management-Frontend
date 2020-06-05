@@ -5,6 +5,7 @@ import Features from '../components/features';
 import Blog from '../components/Blog';
 import Contact from '../components/contact';
 import Subscription from './subscription'
+import Footer from '../components/footer'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         {/* <Pricing /> */}
         <Blog />
         <Contact />
+        <Footer />
     </div>
   );
 }
